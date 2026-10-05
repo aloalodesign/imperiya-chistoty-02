@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Империя Чистоты — профессиональный клининг в Луганске и области</title>
+<meta name="description" content="Империя Чистоты — клининговая компания в Луганске. Уборка квартир, домов, офисов, магазинов, коммерческих помещений и территорий. Мы работаем — Вы отдыхаете.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="top">
+  <div class="container header__inner">
+    <a href="#top" class="logo" aria-label="Империя Чистоты — на главную">
+      <span class="logo__spark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8L12 2z" fill="currentColor"/></svg>
+      </span>
+      <span class="logo__text">Империя Чистоты</span>
+    </a>
+
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#top" class="nav__pill">Главная</a>
+      <a href="#about" class="nav__pill">О компании</a>
+      <a href="#services" class="nav__pill nav__pill--active">Услуги</a>
+    </nav>
+
+    <span class="header__line" aria-hidden="true"></span>
+
+    <div class="header__right">
+      <a href="#calc" class="nav__pill nav__pill--ghost" data-popup>Оставить заявку</a>
+      <a href="#footer" class="btn btn--white btn--sm">Контакты</a>
+    </div>
+
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<div class="mmenu" id="mobile-menu" hidden>
+  <div class="mmenu__head">
+    <span class="logo"><span class="logo__text">Империя Чистоты</span></span>
+    <button class="mmenu__close" id="mmenu-close" aria-label="Закрыть меню">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <nav class="mmenu__nav" aria-label="Мобильная навигация">
+    <a href="#about" class="mmenu__link">О компании</a>
+    <a href="#services" class="mmenu__link">Услуги</a>
+    <a href="#result" class="mmenu__link">Результат</a>
+    <a href="#pricing" class="mmenu__link">Цены</a>
+    <a href="#calc" class="mmenu__link">Расчёт стоимости</a>
+    <a href="#faq" class="mmenu__link">Вопросы</a>
+    <a href="#footer" class="mmenu__link">Контакты</a>
+  </nav>
+  <div class="mmenu__foot">
+    <a href="tel:+79595333322" class="mmenu__phone">+7 (959) 533-33-22</a>
+    <a href="#calc" class="btn btn--white" data-popup>Оставить заявку</a>
+    <p class="mmenu__geo">Луганск и область</p>
+  </div>
+</div>
+
+<main>
+
+<!-- ============ 01 HERO ============ -->
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <img src="assets/hero.jpg" alt="" fetchpriority="high">
+    <div class="hero__veil"></div>
+  </div>
+
+  <div class="container hero__inner">
+    <div class="hero__content" data-reveal>
+      <h1 class="hero__title">
+        <span class="hero__title-strong">Чистота,</span>
+        <span class="hero__title-light">которую можно доверять</span>
+      </h1>
+
+      <div class="hero__proof">
+        <div class="avatars" aria-hidden="true">
+          <img src="assets/general.jpg" alt="">
+          <img src="assets/maintenance.jpg" alt="">
+          <img src="assets/windows.jpg" alt="">
+          <img src="assets/dry-cleaning.jpg" alt="">
+        </div>
+        <p class="hero__proof-text"><strong>Империя Чистоты</strong><br>Луганск и область</p>
+      </div>
+
+      <p class="hero__sub">Профессиональный клининг в Луганске. Выполняем уборку квартир, домов, офисов, магазинов, коммерческих помещений и территорий.</p>
+
+      <div class="hero__actions">
+        <a href="#calc" class="btn btn--white btn--xl" data-popup>
+          <span>Рассчитать стоимость</span>
+          <span class="btn__ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 16.5 16.5 7.5M9 7.5h7.5V15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <a href="#process" class="hero__aside" data-reveal style="--d:.15s">
+      <span class="hero__aside-ico" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M10 8.5l5 3.5-5 3.5v-7z" fill="currentColor"/></svg>
+      </span>
+      <span>Как мы работаем</span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ 02 TRUST / SOCIAL PROOF ============ -->
+<section class="section trust" id="about">
+  <div class="container">
+    <div class="trust__top">
+      <div class="trust__left" data-reveal>
+        <p class="eyebrow"><span class="eyebrow__num">(01)</span> О компании</p>
+        <p class="trust__desc">«Империя Чистоты» — профессиональная клининговая компания в Луганске. Работаем разово и на постоянной основе, соблюдаем сроки.</p>
+      </div>
+      <div class="trust__right" data-reveal style="--d:.08s">
+        <h2 class="trust__statement">Доверяя нам уборку,<br>вы получаете чистоту,<br>которой можно доверять</h2>
+        <div class="trust__row">
+          <div class="socials" aria-label="Мы в соцсетях">
+            <a href="#" class="social" aria-label="ВКонтакте"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.8 17.5c-5.4 0-8.9-3.9-9-10.2h2.8c.1 4.7 2.2 6.7 3.9 7.1V7.3h2.7v4.1c1.6-.2 3.3-2.1 3.9-4.1h2.7c-.4 2.4-2.1 4.3-3.4 5.1 1.3.7 3.3 2.4 4.1 5.1h-3c-.7-2-2.3-3.6-4.3-3.8v3.8h-.4z"/></svg></a>
+            <a href="#" class="social" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="7" r="1.2" fill="currentColor"/></svg></a>
+            <a href="#" class="social" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 5.5 3.8 11.8c-.9.4-.9 1.1-.1 1.3l4.1 1.3 1.6 4.9c.2.6.4.8 1 .8.5 0 .7-.2 1-.5l2.1-2 4.4 3.2c.8.5 1.4.2 1.6-.8l2.9-13.6c.3-1.1-.4-1.6-1.4-1.2zM9.4 14.7l8.1-5.1c.4-.2.7-.1.5.2l-6.6 6-.3 2.8-1.7-3.9z"/></svg></a>
+            <a href="#" class="social" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="12" rx="4" stroke="currentColor" stroke-width="1.6"/><path d="M11 10l4 2-4 2v-4z" fill="currentColor"/></svg></a>
+          </div>
+          <a href="#calc" class="btn btn--ghost-light" data-popup>
+            <span class="btn__ico btn__ico--lead" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 16.5 16.5 7.5M9 7.5h7.5V15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span>Оставить заявку</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <ul class="trust__stats" data-reveal style="--d:.12s">
+      <li class="stat"><span class="stat__num">Частные клиенты</span><span class="stat__label">квартиры, дома, коттеджи</span></li>
+      <li class="stat"><span class="stat__num">Бизнес</span><span class="stat__label">офисы, магазины, ТЦ</span></li>
+      <li class="stat"><span class="stat__num">Луганск</span><span class="stat__label">и область</span></li>
+      <li class="stat"><span class="stat__num">По договору</span><span class="stat__label">для организаций</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 03 SERVICES ============ -->
+<section class="section services" id="services">
+  <div class="container">
+    <div class="services__head" data-reveal>
+      <div>
+        <p class="eyebrow"><span class="eyebrow__num">(02)</span> Наши услуги</p>
+        <h2 class="h2">Всё необходимое для идеальной чистоты</h2>
+      </div>
+      <div class="services__tools">
+        <a href="#pricing" class="btn btn--ghost-light btn--sm">Все услуги</a>
+        <div class="rail-nav">
+          <button class="rail-btn" id="rail-prev" aria-label="Предыдущие услуги">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M14 6l-6 6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="rail-btn" id="rail-next" aria-label="Следующие услуги">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M10 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rail" id="rail" data-reveal style="--d:.1s">
+    <article class="svc">
+      <img class="svc__img" src="assets/general.jpg" alt="Уборка помещений" loading="lazy">
+      <div class="svc__body">
+        <h3 class="svc__name">Уборка помещений</h3>
+        <p class="svc__meta">Квартиры, дома, офисы, магазины и коммерческие объекты</p>
+        <a href="#calc" class="btn btn--ghost-light btn--block">Подробнее</a>
+      </div>
+    </article>
+    <article class="svc">
+      <img class="svc__img" src="assets/windows.jpg" alt="Мойка окон и фасадов" loading="lazy">
+      <div class="svc__body">
+        <h3 class="svc__name">Мойка окон и фасадов</h3>
+        <p class="svc__meta">Окна, витрины, фасады и стеклянные конструкции</p>
+        <a href="#calc" class="btn btn--ghost-light btn--block">Подробнее</a>
+      </div>
+    </article>
+    <article class="svc">
+      <img class="svc__img" src="assets/living.jpg" alt="Уборка территорий" loading="lazy">
+      <div class="svc__body">
+        <h3 class="svc__name">Уборка территорий</h3>
+        <p class="svc__meta">Покос травы, спил деревьев, вывоз мусора</p>
+        <a href="#calc" class="btn btn--ghost-light btn--block">Подробнее</a>
+      </div>
+    </article>
+    <article class="svc">
+      <img class="svc__img" src="assets/dry-cleaning.jpg" alt="Химчистка мебели" loading="lazy">
+      <div class="svc__body">
+        <h3 class="svc__name">Химчистка</h3>
+        <p class="svc__meta">Диваны, кресла, матрасы, ковры и мягкая мебель</p>
+        <a href="#calc" class="btn btn--ghost-light btn--block">Подробнее</a>
+      </div>
+    </article>
+    <article class="svc">
+      <img class="svc__img" src="assets/maintenance.jpg" alt="Озонирование помещения" loading="lazy">
+      <div class="svc__body">
+        <h3 class="svc__name">Озонирование</h3>
+        <p class="svc__meta">Устранение неприятных запахов</p>
+        <a href="#calc" class="btn btn--ghost-light btn--block">Подробнее</a>
+      </div>
+    </article>
+    <article class="svc">
+      <img class="svc__img" src="assets/office.png" alt="Грузоперевозки" loading="lazy">
+      <div class="svc__body">
+        <h3 class="svc__name">Грузоперевозки</h3>
+        <p class="svc__meta">Грузовой транспорт и опытные грузчики</p>
+        <a href="#calc" class="btn btn--ghost-light btn--block">Подробнее</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 04 RESULT / BEFORE & AFTER ============ -->
+<section class="section result" id="result">
+  <div class="container">
+    <div class="result__head" data-reveal>
+      <p class="eyebrow"><span class="eyebrow__num">(03)</span> Результат</p>
+      <h2 class="h2">Чистота после<br>нашей работы</h2>
+      <p class="section__lead">Кухня, санузел, окна и помещение после ремонта — примеры зон, которые мы приводим в порядок.</p>
+    </div>
+
+    <ul class="result__cases" data-reveal style="--d:.1s">
+      <li class="rcase"><img src="assets/maintenance.jpg" alt="Кухня после поддерживающей уборки" loading="lazy"><span>Кухня</span></li>
+      <li class="rcase"><img src="assets/windows.jpg" alt="Санузел после уборки" loading="lazy"><span>Санузел</span></li>
+      <li class="rcase"><img src="assets/after-renovation.jpg" alt="Помещение после ремонта" loading="lazy"><span>После ремонта</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 05 WHAT'S INCLUDED ============ -->
+<section class="section included" id="included">
+  <div class="container">
+    <div class="included__head" data-reveal>
+      <p class="eyebrow"><span class="eyebrow__num">(04)</span> Что входит</p>
+      <h2 class="h2">Что входит<br>в уборку</h2>
+      <p class="section__lead">Понятный состав работ по каждой зоне — вы знаете, за что платите.</p>
+    </div>
+
+    <div class="zones">
+      <div class="zone" data-reveal>
+        <h3 class="zone__title">Кухня</h3>
+        <ul class="zone__list">
+          <li>Рабочие поверхности</li>
+          <li>Фасады</li>
+          <li>Мойка</li>
+          <li>Плита</li>
+          <li>Внешняя поверхность техники</li>
+        </ul>
+      </div>
+      <div class="zone" data-reveal style="--d:.08s">
+        <h3 class="zone__title">Санузел</h3>
+        <ul class="zone__list">
+          <li>Сантехника</li>
+          <li>Зеркало</li>
+          <li>Ванна / душ</li>
+          <li>Плитка</li>
+          <li>Пол</li>
+        </ul>
+      </div>
+      <div class="zone" data-reveal style="--d:.16s">
+        <h3 class="zone__title">Комнаты</h3>
+        <ul class="zone__list">
+          <li>Поверхности</li>
+          <li>Пыль</li>
+          <li>Мебель</li>
+          <li>Зеркала</li>
+          <li>Полы</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 WHERE WE CLEAN ============ -->
+<section class="section where" id="where">
+  <div class="container">
+    <div class="where__head" data-reveal>
+      <p class="eyebrow eyebrow--light"><span class="eyebrow__num">(05)</span> Где мы работаем</p>
+      <h2 class="h2 h2--light">Где мы работаем</h2>
+    </div>
+
+    <div class="where__grid">
+      <article class="place" data-reveal>
+        <img src="assets/maintenance.jpg" alt="Квартиры и дома" loading="lazy">
+        <div class="place__body">
+          <h3 class="place__name">Квартиры и дома</h3>
+          <p class="place__desc">Квартиры, дома, коттеджи, мебель, окна и уборка после ремонта.</p>
+          <a href="#calc" class="place__link">Рассчитать
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 16.5 16.5 7.5M9 7.5h7.5V15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="place" data-reveal style="--d:.06s">
+        <img src="assets/living.jpg" alt="Бизнес" loading="lazy">
+        <div class="place__body">
+          <h3 class="place__name">Бизнес</h3>
+          <p class="place__desc">Офисы, магазины, торговые центры, коммерческие и производственные помещения.</p>
+          <a href="#calc" class="place__link">Рассчитать
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 16.5 16.5 7.5M9 7.5h7.5V15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="place" data-reveal style="--d:.12s">
+        <img src="assets/office.png" alt="Организации" loading="lazy">
+        <div class="place__body">
+          <h3 class="place__name">Организации</h3>
+          <p class="place__desc">Государственные учреждения и объекты различного назначения.</p>
+          <a href="#calc" class="place__link">Рассчитать
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 16.5 16.5 7.5M9 7.5h7.5V15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="place" data-reveal style="--d:.18s">
+        <img src="assets/after-renovation.jpg" alt="Территории" loading="lazy">
+        <div class="place__body">
+          <h3 class="place__name">Территории</h3>
+          <p class="place__desc">Покос травы, спил деревьев, уборка территории и вывоз мусора.</p>
+          <a href="#calc" class="place__link">Рассчитать
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 16.5 16.5 7.5M9 7.5h7.5V15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 WHY US ============ -->
+<section class="section why" id="why">
+  <div class="container">
+    <div class="why__head" data-reveal>
+      <p class="eyebrow"><span class="eyebrow__num">(06)</span> Почему мы</p>
+      <h2 class="h2">Почему «Империя Чистоты»</h2>
+    </div>
+
+    <ul class="why__list">
+      <li class="why__row" data-reveal>
+        <span class="why__num">01</span>
+        <span class="why__title">Профессиональное оборудование</span>
+        <span class="why__text">Используем специализированное оборудование для разных типов работ.</span>
+      </li>
+      <li class="why__row" data-reveal style="--d:.05s">
+        <span class="why__num">02</span>
+        <span class="why__title">Безопасные средства</span>
+        <span class="why__text">Подбираем средства в соответствии с задачей и типом поверхности.</span>
+      </li>
+      <li class="why__row" data-reveal style="--d:.1s">
+        <span class="why__num">03</span>
+        <span class="why__title">Опытные сотрудники</span>
+        <span class="why__text">Ответственно относимся к каждому заказу.</span>
+      </li>
+      <li class="why__row" data-reveal style="--d:.15s">
+        <span class="why__num">04</span>
+        <span class="why__title">Индивидуальный подход</span>
+        <span class="why__text">Рассчитываем стоимость и состав работ под конкретный объект.</span>
+      </li>
+      <li class="why__row" data-reveal style="--d:.2s">
+        <span class="why__num">05</span>
+        <span class="why__title">Без скрытых доплат</span>
+        <span class="why__text">Обсуждаем условия и стоимость заранее.</span>
+      </li>
+      <li class="why__row" data-reveal style="--d:.25s">
+        <span class="why__num">06</span>
+        <span class="why__title">Луганск и область</span>
+        <span class="why__text">Работаем на территории Луганска и области.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 08 PROCESS ============ -->
+<section class="section process" id="process">
+  <div class="container">
+    <div class="process__head" data-reveal>
+      <p class="eyebrow eyebrow--light"><span class="eyebrow__num">(07)</span> Процесс</p>
+      <h2 class="h2 h2--light">От заявки до чистого помещения</h2>
+    </div>
+
+    <ol class="steps">
+      <li class="step" data-reveal>
+        <span class="step__num">01</span>
+        <h3 class="step__title">Оставляете заявку</h3>
+        <p class="step__text">Рассказываете, что необходимо сделать.</p>
+      </li>
+      <li class="step" data-reveal style="--d:.07s">
+        <span class="step__num">02</span>
+        <h3 class="step__title">Уточняем детали</h3>
+        <p class="step__text">Определяем объект, площадь и перечень работ.</p>
+      </li>
+      <li class="step" data-reveal style="--d:.14s">
+        <span class="step__num">03</span>
+        <h3 class="step__title">Рассчитываем стоимость</h3>
+        <p class="step__text">Формируем индивидуальное предложение.</p>
+      </li>
+      <li class="step" data-reveal style="--d:.21s">
+        <span class="step__num">04</span>
+        <h3 class="step__title">Приезжаем на объект</h3>
+        <p class="step__text">Работаем в согласованное время.</p>
+      </li>
+      <li class="step" data-reveal style="--d:.28s">
+        <span class="step__num">05</span>
+        <h3 class="step__title">Завершаем уборку</h3>
+        <p class="step__text">Вы принимаете готовый результат.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 09 REVIEWS ============ -->
+<section class="section reviews" id="reviews">
+  <div class="container">
+    <div class="reviews__head" data-reveal>
+      <p class="eyebrow"><span class="eyebrow__num">(08)</span> Отзывы</p>
+      <h2 class="h2">Что говорят клиенты</h2>
+    </div>
+
+    <div class="reviews__grid">
+      <figure class="review" data-reveal>
+        <blockquote class="review__text">«Заказывали генеральную уборку квартиры перед приездом гостей. Приехали вовремя, всё по чек-листу, кухня и санузел — как новые.»</blockquote>
+        <figcaption class="review__who"><strong>Марина</strong><span>квартира, Луганск</span></figcaption>
+      </figure>
+      <figure class="review" data-reveal style="--d:.08s">
+        <blockquote class="review__text">«Держим регулярный клининг офиса по договору. Приходят по графику, мусор вывозят, за столами порядок — сотрудникам удобно.»</blockquote>
+        <figcaption class="review__who"><strong>Андрей</strong><span>офис, Луганск</span></figcaption>
+      </figure>
+      <figure class="review" data-reveal style="--d:.16s">
+        <blockquote class="review__text">«После потопа в частном доме вызвали «Империю Чистоты». За день вычистили помещение полностью, можно было спокойно заезжать.»</blockquote>
+        <figcaption class="review__who"><strong>Ольга</strong><span>дом, Луганская область</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10 PRICING ============ -->
+<section class="section pricing" id="pricing">
+  <div class="container">
+    <div class="pricing__head" data-reveal>
+      <p class="eyebrow"><span class="eyebrow__num">(09)</span> Цены</p>
+      <h2 class="h2">Ориентировочные цены</h2>
+      <p class="section__lead">Точная стоимость зависит от площади, состояния объекта и объёма работ.</p>
+    </div>
+
+    <ul class="prices" data-reveal style="--d:.1s">
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Мойка окон</h3>
+          <p class="price__desc">Окна, витрины и стеклянные конструкции</p>
+        </div>
+        <div class="price__val">от 350 ₽/м²</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Уборка во время строительных работ</h3>
+          <p class="price__desc">Поддержание порядка на объекте во время ремонта</p>
+        </div>
+        <div class="price__val">5 000 ₽</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Озонирование</h3>
+          <p class="price__desc">Устранение неприятных запахов</p>
+        </div>
+        <div class="price__val">от 7 000 ₽</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Расхламление</h3>
+          <p class="price__desc">Освобождение помещения от ненужных вещей</p>
+        </div>
+        <div class="price__val">7 000–15 000 ₽</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Поддерживающая уборка</h3>
+          <p class="price__desc">Регулярное поддержание чистоты</p>
+        </div>
+        <div class="price__val">5 000–10 000 ₽</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Уборка кухни</h3>
+          <p class="price__desc">Поверхности, мебель, техника и другие зоны кухни</p>
+        </div>
+        <div class="price__val">10 000–25 000 ₽</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Уборка после ремонта</h3>
+          <p class="price__desc">Удаление строительной пыли и загрязнений</p>
+        </div>
+        <div class="price__val">10 000–25 000 ₽</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Генеральная уборка</h3>
+          <p class="price__desc">Комплексная уборка помещения</p>
+        </div>
+        <div class="price__val">15 000–80 000 ₽</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Уборка после потопа</h3>
+          <p class="price__desc">Комплексная уборка после затопления</p>
+        </div>
+        <div class="price__val">15 000–50 000 ₽</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Уборка после пожара</h3>
+          <p class="price__desc">Очистка от сильных загрязнений и копоти</p>
+        </div>
+        <div class="price__val">30 000–120 000 ₽</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Мойка вытяжки</h3>
+          <p class="price__desc">Загрязнения и жировые отложения</p>
+        </div>
+        <div class="price__val price__val--sm">по договорённости</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Вывоз мусора</h3>
+          <p class="price__desc">Бытовой и строительный мусор</p>
+        </div>
+        <div class="price__val price__val--sm">по договорённости</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+      <li class="price">
+        <div class="price__info">
+          <h3 class="price__name">Грузоперевозки</h3>
+          <p class="price__desc">Грузовой транспорт и грузчики</p>
+        </div>
+        <div class="price__val price__val--sm">по договорённости</div>
+        <a href="#calc" class="btn btn--ghost-light btn--sm">Заявка</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 11 CALCULATOR ============ -->
+<section class="section calc" id="calc">
+  <div class="container">
+    <div class="calc__box" data-reveal>
+      <div class="calc__intro">
+        <p class="eyebrow eyebrow--light"><span class="eyebrow__num">(10)</span> Расчёт</p>
+        <h2 class="h2 h2--light">Рассчитать<br>стоимость</h2>
+        <p class="calc__lead">Ответьте на три вопроса — покажем предварительный расчёт. Точную стоимость подтвердит менеджер.</p>
+        <a href="tel:+79595333322" class="calc__phone">+7 (959) 533-33-22</a>
+      </div>
+
+      <form class="calc__form" id="calc-form" novalidate>
+        <fieldset class="calc__set">
+          <legend class="calc__legend">Что убираем?</legend>
+          <div class="seg" role="radiogroup" aria-label="Тип объекта">
+            <button type="button" class="seg__btn is-on" data-obj="flat" role="radio" aria-checked="true">Квартира</button>
+            <button type="button" class="seg__btn" data-obj="house" role="radio" aria-checked="false">Дом</button>
+            <button type="button" class="seg__btn" data-obj="office" role="radio" aria-checked="false">Офис</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="calc__set">
+          <legend class="calc__legend">Площадь: <output id="area-out" for="area">50</output> м²</legend>
+          <input class="calc__range" id="area" type="range" min="20" max="300" step="5" value="50">
+        </fieldset>
+
+        <fieldset class="calc__set">
+          <legend class="calc__legend">Тип уборки</legend>
+          <div class="seg seg--wrap" role="radiogroup" aria-label="Тип уборки">
+            <button type="button" class="seg__btn is-on" data-clean="5000" data-fixed="1" role="radio" aria-checked="true">Поддерживающая</button>
+            <button type="button" class="seg__btn" data-clean="15000" data-fixed="1" role="radio" aria-checked="false">Генеральная</button>
+            <button type="button" class="seg__btn" data-clean="10000" data-fixed="1" role="radio" aria-checked="false">После ремонта</button>
+            <button type="button" class="seg__btn" data-clean="350" role="radio" aria-checked="false">Мойка окон</button>
+          </div>
+        </fieldset>
+
+        <div class="calc__result">
+          <div class="calc__sum">
+            <span class="calc__sum-label">Предварительный расчёт</span>
+            <strong class="calc__sum-val" id="calc-sum">от 5 000 ₽</strong>
+            <span class="calc__sum-note" id="calc-note">Ориентировочно, от 5 000 ₽. Точная стоимость зависит от площади и объёма работ.</span>
+          </div>
+          <button type="submit" class="btn btn--white btn--xl">
+            <span>Получить расчёт</span>
+            <span class="btn__ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 16.5 16.5 7.5M9 7.5h7.5V15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </button>
+          <p class="calc__done" id="calc-done" hidden>Заявка принята — менеджер свяжется с вами и подтвердит стоимость.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 12 FAQ ============ -->
+<section class="section faq" id="faq">
+  <div class="container">
+    <div class="faq__head" data-reveal>
+      <p class="eyebrow"><span class="eyebrow__num">(11)</span> Вопросы</p>
+      <h2 class="h2">Частые вопросы</h2>
+    </div>
+
+    <div class="acc" data-reveal style="--d:.1s">
+      <details class="acc__item">
+        <summary class="acc__q">Какие услуги вы оказываете?<span class="acc__ico" aria-hidden="true"></span></summary>
+        <div class="acc__a"><p>Уборка помещений, мойка окон и фасадов, уборка территорий, химчистка, озонирование и грузоперевозки.</p></div>
+      </details>
+      <details class="acc__item">
+        <summary class="acc__q">Где вы работаете?<span class="acc__ico" aria-hidden="true"></span></summary>
+        <div class="acc__a"><p>Луганск и область.</p></div>
+      </details>
+      <details class="acc__item">
+        <summary class="acc__q">Работаете ли вы по договору?<span class="acc__ico" aria-hidden="true"></span></summary>
+        <div class="acc__a"><p>Да. Для компаний и организаций доступен регулярный клининг и работа по договору с фиксированным объёмом работ.</p></div>
+      </details>
+      <details class="acc__item">
+        <summary class="acc__q">Как узнать стоимость?<span class="acc__ico" aria-hidden="true"></span></summary>
+        <div class="acc__a"><p>Используйте калькулятор или позвоните нам — менеджер уточнит задачу и назовёт точную цену до выезда бригады.</p></div>
+      </details>
+      <details class="acc__item">
+        <summary class="acc__q">Нужно ли покупать средства и инвентарь?<span class="acc__ico" aria-hidden="true"></span></summary>
+        <div class="acc__a"><p>Нет. Бригада приезжает со всем необходимым: профессиональным оборудованием и средствами, подбранными под тип поверхности.</p></div>
+      </details>
+      <details class="acc__item">
+        <summary class="acc__q">Берёте ли вы сложные заказы?<span class="acc__ico" aria-hidden="true"></span></summary>
+        <div class="acc__a"><p>Да: уборка после ремонта, потопа и пожара, расхламление помещений.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 13 FINAL CTA ============ -->
+<section class="section cta" id="contact">
+  <div class="container cta__grid">
+    <div class="cta__text" data-reveal>
+      <p class="cta__over">Нужна профессиональная уборка?<br>Оставьте заявку — расскажите, что нужно сделать.</p>
+      <h2 class="cta__title">Мы работаем —<br>Вы отдыхаете.</h2>
+    </div>
+    <div class="cta__actions" data-reveal style="--d:.1s">
+      <a href="#calc" class="btn btn--white btn--xl" data-popup>
+        <span>Рассчитать стоимость</span>
+        <span class="btn__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 16.5 16.5 7.5M9 7.5h7.5V15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </a>
+      <a href="tel:+79595333322" class="cta__phone">+7 (959) 533-33-22</a>
+      <a href="tel:+79591302975" class="cta__phone">+7 (959) 130-29-75</a>
+      <p class="cta__geo">Клининг в Луганске и области</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ 14 FOOTER ============ -->
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#top" class="logo">
+          <span class="logo__spark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8L12 2z" fill="currentColor"/></svg>
+          </span>
+          <span class="logo__text">Империя Чистоты</span>
+        </a>
+        <p class="footer__desc">Клининг в Луганске и области. Уборка квартир, домов, офисов, магазинов и территорий.</p>
+      </div>
+
+      <div class="footer__contacts">
+        <a href="tel:+79595333322" class="footer__phone">+7 (959) 533-33-22</a>
+        <a href="tel:+79591302975" class="footer__phone">+7 (959) 130-29-75</a>
+        <a href="#calc" class="btn btn--white btn--sm" data-popup>Оставить заявку</a>
+        <p class="footer__geo">Луганск и область</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <a href="#about">О компании</a>
+        <a href="#services">Услуги</a>
+        <a href="#pricing">Цены</a>
+        <a href="#process">Как работаем</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© Империя Чистоты</p>
+      <div class="footer__legal">
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Пользовательское соглашение</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ LEAD POPUP ============ -->
+<div class="popup" id="popup" hidden>
+  <div class="popup__veil" data-popup-close></div>
+  <div class="popup__card" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+    <button class="popup__close" type="button" data-popup-close aria-label="Закрыть">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+
+    <p class="eyebrow">Заявка</p>
+    <h2 class="popup__title" id="popup-title">Оставить заявку</h2>
+    <p class="popup__sub">Оставьте контакты — менеджер перезвонит и согласует удобное время уборки. Или позвоните сами: +7 (959) 533-33-22, +7 (959) 130-29-75.</p>
+
+    <form class="popup__form" id="popup-form" novalidate>
+      <label class="popup__field">
+        <span>Имя</span>
+        <input type="text" name="name" autocomplete="name" placeholder="Как к вам обращаться" required>
+      </label>
+      <label class="popup__field">
+        <span>Телефон</span>
+        <input type="tel" name="phone" autocomplete="tel" placeholder="+7 (___) ___-__-__" required>
+      </label>
+      <button type="submit" class="btn btn--white btn--xl popup__submit">
+        <span>Отправить заявку</span>
+        <span class="btn__ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M7.5 16.5 16.5 7.5M9 7.5h7.5V15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </button>
+      <p class="popup__done" id="popup-done" hidden>Заявка принята — менеджер свяжется с вами в ближайшее время.</p>
+      <p class="popup__legal">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.</p>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
